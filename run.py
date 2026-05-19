@@ -16,13 +16,13 @@ DELIVERY_TTL_SECONDS = 600
 PROCESSED_DELIVERIES = {}
 PROCESSED_DELIVERIES_LOCK = Lock()
 
-server_url = "<server-url>"
-client_id = "<client-id>"
-client_secret = "<client-secret>"
-username = "<username>"
-password = "<password>"
+server_url = SERVER_URL
+client_id = CLIENT_ID
+client_secret = CLIENT_SECRET
+username = USERNAME
+password = PASSWORD
 
-job_id = "<job-id>"
+job_id = JOB_ID
 
 STATUS_TO_RERUN = ["Error"]
 
